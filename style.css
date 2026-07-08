@@ -28,6 +28,10 @@
   border-radius:12px;
   padding:24px 22px;
   min-height:125px;
+  display:grid;
+  grid-template-columns:55px 1fr;
+  column-gap:18px;
+  align-items:start;
   transition:0.3s ease;
   cursor:pointer;
 }
@@ -41,21 +45,19 @@
   width:55px;
   height:55px;
   object-fit:contain;
-  float:left;
-  margin-right:18px;
-  margin-bottom:12px;
+  grid-row:1 / span 2;
 }
 
 .services-grid h3{
   font-size:17px;
   font-weight:800;
   line-height:1.15;
-  margin:0 0 15px;
+  margin:0;
 }
 
 .services-grid p{
-  clear:both;
+  grid-column:1 / -1;
   font-size:15px;
   line-height:1.25;
-  margin:0;
+  margin:14px 0 0;
 }

@@ -10,3 +10,10 @@
 .reveal{opacity:0;transform:translateY(24px);transition:.7s}.reveal.show{opacity:1;transform:none}
 @media(max-width:900px){.menu-btn{display:block}.nav{display:none;position:absolute;right:5%;top:78px;background:#071421;border:1px solid var(--line);border-radius:12px;flex-direction:column;padding:18px;width:230px}.nav.active{display:flex}.hero,.mission,.split{grid-template-columns:1fr}.grid,.facts-grid{grid-template-columns:repeat(2,1fr)}.beyond{grid-template-columns:1fr}h1{font-size:38px}.brand{font-size:22px}}
 @media(max-width:560px){.section{padding:42px 5%}.grid,.facts-grid{grid-template-columns:1fr}.site-header{padding:18px 5%}h1{font-size:32px}p{font-size:16px}.brand small{font-size:10px}.brand{font-size:20px}}
+.service-icon{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+    display:block;
+    margin-bottom:18px;
+}

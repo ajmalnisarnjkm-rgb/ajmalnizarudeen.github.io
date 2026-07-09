@@ -88,14 +88,18 @@
       </div>
     </section>
 
-    <section id="portfolio" class="section portfolio">
-      <h2>PORTFOLIO</h2>
-      <div class="portfolio-grid">
-        <article class="portfolio-card reveal"><img src="mockup.jpg" alt="Portfolio mockup"><h3>Promotional Campaigns</h3><p>Driving school, automotive, retail, and brand awareness campaigns.</p></article>
-        <article class="portfolio-card reveal"><img src="page-2-copy.jpg" alt="Design mockup"><h3>Creative Design</h3><p>Social media creatives, thumbnails, banners, and digital visuals.</p></article>
-        <article class="portfolio-card reveal"><img src="camera.jpg" alt="Camera"><h3>Photography</h3><p>Event, product, portrait, and lifestyle photography.</p></article>
-      </div>
-    </section>
+<section id="portfolio" class="section">
+
+<h2>Portfolio</h2>
+
+<div class="video-card" onclick="openVideo('https://drive.google.com/file/d/13KPSPZpoM0rMct7OR1KldT6EIgpam6Rl/preview')">
+  <img src="proposal-thumb1.png">
+  <div class="play-button">▶</div>
+  <h3>Proposal Before License</h3>
+  <p>AI Commercial</p>
+</div>
+
+</section>
 
     <section id="experience" class="section experience">
       <h2>EXPERIENCE</h2>
@@ -128,5 +132,16 @@
 
   <footer>© 2026 Ajmal Nizarudeen. All Rights Reserved.</footer>
   <script src="script.js"></script>
+<div id="videoModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeVideo()">&times;</span>
+
+    <iframe
+      id="videoFrame"
+      allow="autoplay"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
 </body>
 </html>

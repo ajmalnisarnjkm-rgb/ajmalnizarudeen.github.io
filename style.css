@@ -29,30 +29,6 @@
     width:100%;
     display:block;
 }
-
-/* Top text */
-.video-info{
-    padding:20px 20px 15px;
-}
-
-.video-category{
-    display:block;
-    color:#0b86ff;
-    font-size:14px;
-    font-weight:800;
-    letter-spacing:2px;
-    text-transform:uppercase;
-    margin-bottom:8px;
-}
-
-.video-info h3{
-    color:#fff;
-    font-size:32px;
-    font-weight:800;
-    line-height:1.2;
-    margin:0;
-}
-
 /* Play button */
 .play-button{
     position:absolute;

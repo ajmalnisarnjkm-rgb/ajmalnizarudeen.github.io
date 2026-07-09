@@ -254,3 +254,81 @@
     grid-template-columns:1fr;
   }
 }
+   /* FORCE MISSION + BEYOND WORK FIX */
+
+.mission-beyond.section{
+  display:grid !important;
+  grid-template-columns:1fr 1.2fr !important;
+  gap:60px !important;
+  padding:60px 5% !important;
+}
+
+.mission-beyond .mission-card{
+  background:#0d1829 !important;
+  border-radius:22px !important;
+  padding:40px !important;
+  min-height:420px !important;
+}
+
+.mission-beyond .quote-icon{
+  width:40px !important;
+}
+
+.mission-beyond .mission-card p{
+  font-size:32px !important;
+  line-height:1.45 !important;
+  font-weight:600 !important;
+}
+
+.mission-beyond .mission-card span{
+  color:#0b8cff !important;
+}
+
+.mission-beyond .signature{
+  width:170px !important;
+  display:block !important;
+  margin-left:auto !important;
+}
+
+.mission-beyond .beyond-content{
+  display:grid !important;
+  grid-template-columns:330px 1fr !important;
+  gap:35px !important;
+}
+
+.mission-beyond .camera-image{
+  width:100% !important;
+  height:360px !important;
+  object-fit:cover !important;
+  border:2px solid #1d7cff !important;
+}
+
+.mission-beyond .beyond-text{
+  font-size:24px !important;
+  line-height:1.5 !important;
+}
+
+.mission-beyond .interest-item{
+  display:flex !important;
+  align-items:center !important;
+  gap:20px !important;
+  margin-bottom:28px !important;
+}
+
+.mission-beyond .interest-item img{
+  width:46px !important;
+  height:46px !important;
+  object-fit:contain !important;
+}
+
+.mission-beyond .interest-item span{
+  font-size:22px !important;
+  font-weight:700 !important;
+}
+
+@media(max-width:900px){
+  .mission-beyond.section,
+  .mission-beyond .beyond-content{
+    grid-template-columns:1fr !important;
+  }
+}

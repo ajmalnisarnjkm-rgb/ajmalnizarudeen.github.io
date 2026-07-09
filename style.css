@@ -118,3 +118,49 @@
 .close:hover{
     color:#0b86ff;
 }
+/* ===========================
+   EXPERIENCE
+=========================== */
+
+.experience-card{
+    background:#0d1625;
+    border:1px solid rgba(11,134,255,.25);
+    border-radius:18px;
+    padding:35px;
+    margin-bottom:35px;
+    box-shadow:0 12px 35px rgba(0,0,0,.30);
+}
+
+.experience-card h3{
+    font-size:30px;
+    color:#fff;
+    margin:0;
+}
+
+.experience-card h4{
+    color:#0b86ff;
+    font-size:22px;
+    letter-spacing:2px;
+    margin:15px 0;
+}
+
+.experience-card p{
+    color:#c7d2df;
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.experience-card ul{
+    padding-left:25px;
+}
+
+.experience-card li{
+    color:#fff;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:10px;
+}
+
+.experience-card strong{
+    color:#0b86ff;
+}

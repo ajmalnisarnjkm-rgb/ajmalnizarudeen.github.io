@@ -79,3 +79,20 @@
   font-size:40px;
   cursor:pointer;
 }
+.video-info{
+  margin-bottom:20px;
+}
+
+.video-category{
+  color:#0b86ff;
+  font-size:14px;
+  font-weight:800;
+  letter-spacing:2px;
+}
+
+.video-info h3{
+  color:#fff;
+  font-size:34px;
+  font-weight:800;
+  margin:8px 0 0;
+}

@@ -178,9 +178,11 @@
 .timeline-item p{
     font-size:16px;
 }
-/* =========================
-   MISSION + BEYOND WORK
-========================= */
+}
+
+ /* =========================
+    MISSION + BEYOND WORK
+ ========================= */
 
 .mission-beyond{
     display:grid;
